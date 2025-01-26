@@ -1,0 +1,241 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #edebe7;
+    margin: 0;
+    border: none;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F1F1F;
+    color: #fff;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logo-image {
+    height: 110px;
+    width: 110px;
+    margin: 5px 0;
+    border-radius: 1%;
+}
+
+/* Burger Menu */
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.burger-menu span {
+    background: #a52f08;
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+}
+
+/* Hide checkbox */
+.menu-checkbox {
+    display: none;
+}
+
+/* Nav Links (Mobile First) */
+.nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: #333;
+    padding: 10px 0;
+}
+
+.nav-links a {
+    color: #f29413;
+    text-decoration: none;
+    margin: 3px 0;
+    padding: 5px 15px;
+}
+
+.menu-checkbox:checked ~ .nav-links {
+    display: flex;
+}
+
+.login {
+    display: none;
+}
+
+.menu-checkbox:checked ~ .login {
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background-color: transparent;
+    }
+
+    .nav-links a {
+        margin: 0 8px;
+    }
+
+    .login {
+        display: block;
+    }
+}
+
+/* Banner */
+.banner {
+    background: url('/images/games/wallpaperflare.com_wallpaper\ \(9\).jpg') no-repeat center center/cover;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: #ef6216cf;
+    font-family: "Cinzel";
+    font-size: larger;
+}
+
+.banner h1 {
+    font-size: 4.5rem;
+}
+
+/* Introduction */
+.gintro {
+    padding: 20px;
+    background-color: #100b01;
+    text-align: center;
+    color: #b6b5b4;
+    font-family: "Manrope";
+    
+}
+
+/* Trending Games */
+.trending-games {
+    padding: 20px;
+    background-image: url('/images/sectionab.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+}
+.trending-games h2{
+    color: #f29413;
+    font-family: "Cinzel";
+    padding-bottom: 5dvh;
+}
+
+.trending-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.trending-item {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+    color: #b6b4b0;
+    font-family: cursive;
+}
+
+.trending-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.stars {
+    color: rgb(190, 142, 46);
+    font-size: 1.2rem;
+}
+
+/* All Games */
+.all-games {
+    padding: 20px;
+    background-image: url('/images/sectionab\ -\ Copy.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+}
+
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.game-item {
+    flex: 1 1 calc(100% - 40px);
+    position: relative;
+    background-color: #bcab9631;
+    border: 1px solid #8e5a02;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.game-item img {
+    width: 100%;
+    display: block;
+}
+
+.game-info {
+    display: none;
+    padding: 10px;
+    color: #b6b4b0;
+    font-family: monospace;
+    
+}
+
+.game-item:hover .game-info {
+    display: block;
+}
+
+.game-item:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .trending-item {
+        width: calc(33.33% - 20px);
+    }
+
+    .games-container .game-item {
+        flex: 1 1 calc(33.33% - 40px);
+    }
+    .gintro {
+        padding: 20px;
+        background-color: #100b01;
+        text-align: center;
+        color: #b8a490;
+        font-family: Georgia ;
+        font-size: larger;
+        
+    }
+}
