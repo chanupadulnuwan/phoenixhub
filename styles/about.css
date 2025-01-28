@@ -80,7 +80,7 @@ nav {
 
 /* Cover Section */
 .cover {
-    background-image: url(./images/aaaa.jpg);
+    background-image: url("./images/aaaa.jpg");
     display: flex;
     /* justify-content: center; */
     align-items: center;
