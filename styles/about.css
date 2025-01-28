@@ -80,7 +80,7 @@ nav {
 
 /* Cover Section */
 .cover {
-    background-image: url("./images/aaaa.jpg");
+    background-image: url("../images/aaaa.jpg");
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -111,7 +111,7 @@ nav {
 .story {
     padding: 25px;
     text-align: center;
-    background-image: url("./images/sectionab.jpg");
+    background-image: url("../images/sectionab.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -141,7 +141,7 @@ nav {
 .hours {
     padding: 25px;
     text-align: center;
-    background-image: url("./images/sectionab\ -\ Copy.jpg");
+    background-image: url("../images/sectionab\ -\ Copy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -183,7 +183,7 @@ nav {
 /* Branch Section */
 .branches1 {
     padding: 25px;
-    background-image: url("./images/sectionab.jpg");
+    background-image: url("../images/sectionab.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -258,7 +258,7 @@ nav {
 
 .branches2 {
     padding: 25px;
-    background-image: url("./images/sectionab.jpg");
+    background-image: url("../images/sectionab.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -269,7 +269,7 @@ nav {
 
 .branches3 {
     padding: 25px;
-    background-image: url("./images/sectionab\ -\ Copy.jpg");
+    background-image: url("../images/sectionab\ -\ Copy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -324,7 +324,7 @@ footer {
     .hours {
         padding: 25px 20vh 25px 20vh;
         text-align: center;
-        background-image: url("./images/sectionab\ -\ Copy.jpg");
+        background-image: url("../images/sectionab\ -\ Copy.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

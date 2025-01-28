@@ -218,7 +218,7 @@ nav {
     align-items: center;
     flex-direction: column;
     height: auto;
-    background-image: url('./images/sectionab.jpg');
+    background-image: url('../images/sectionab.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -413,7 +413,7 @@ section {
 
 .section-3 {
     height: auto;
-    background-image: url('./images/sectionab.jpg');
+    background-image: url('../images/sectionab.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     /* Makes the image cover the whole section */
@@ -424,7 +424,7 @@ section {
 
 .h-section-4 {
     height: auto;
-    background-image: url('./images/sectionab\ -\ Copy.jpg');
+    background-image: url('../images/sectionab\ -\ Copy.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     /* Makes the image cover the whole section */
@@ -468,7 +468,7 @@ section {
 
 .section-5 {
     height: auto;
-    background-image: url('./images/sectionab.jpg');
+    background-image: url('../images/sectionab.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

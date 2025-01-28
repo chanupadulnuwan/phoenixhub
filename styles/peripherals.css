@@ -110,7 +110,7 @@ nav {
 
 /* Banner Section */
 .p-banner {
-    background: url('./images/bern.jpg') no-repeat center center/cover;
+    background: url('../images/bern.jpg') no-repeat center center/cover;
     height: 160px;
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@ nav {
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
-    background-image: url("./images/sectionab\ -\ Copy.jpg");
+    background-image: url("../images/sectionab\ -\ Copy.jpg");
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
@@ -139,7 +139,7 @@ nav {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 20px;
-    background-image: url("./images/sectionab.jpg");
+    background-image: url("../images/sectionab.jpg");
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;

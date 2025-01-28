@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('./images/sectionab.jpg');
+    background-image: url('../images/sectionab.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -123,7 +123,7 @@ nav {
 
 /* Banner Section */
 .fbanner {
-    background: url('./images/pexels-pamanjoe-14669354.jpg') no-repeat center center/cover;
+    background: url('../images/pexels-pamanjoe-14669354.jpg') no-repeat center center/cover;
     height: 200px;
     display: flex;
     align-items: center;
