@@ -112,7 +112,7 @@ nav {
 
 /* Banner */
 .banner {
-    background: url('/images/games/wallpaperflare.com_wallpaper\ \(9\).jpg') no-repeat center center/cover;
+    background: url('./images/games/wallpaperflare.com_wallpaper\ \(9\).jpg') no-repeat center center/cover;
     height: 200px;
     display: flex;
     align-items: center;
@@ -139,7 +139,7 @@ nav {
 /* Trending Games */
 .trending-games {
     padding: 20px;
-    background-image: url('/images/sectionab.jpg');
+    background-image: url('./images/sectionab.jpg');
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center; 
@@ -177,7 +177,7 @@ nav {
 /* All Games */
 .all-games {
     padding: 20px;
-    background-image: url('/images/sectionab\ -\ Copy.jpg');
+    background-image: url('./images/sectionab\ -\ Copy.jpg');
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
