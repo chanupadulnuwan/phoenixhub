@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Computer Parts</title>
+  <link rel="stylesheet" href="./styles/p_page.css">
+  <link rel="stylesheet" href="./styles/home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Kaushan+Script&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Silkscreen:wght@400;700&family=VT323&display=swap"
+    rel="stylesheet">
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><img src="./images/Orange_Phoenix_Animal_Gaming_Logo-removebg-preview.png"
+            alt="Gaming Retailer Logo" class="logo-image"></a>
+      </div>
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      <label for="menu-toggle" class="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us </a>
+        <a href="games.html">Games</a>
+        <a href="upcoming.html">Upcoming Games</a>
+        <a href="consoles.html">Consoles</a>
+        <a href="peripherals.html">Gaming Peripherals</a>
+        <a href="faq.html">Queries & FAQ</a>
+        <a href="oder.html">Oders</a>
+
+      </div>
+    </nav>
+  </header>
+<body>
+  <main class="checkout-container">
+    <h1 class="checkout-title">Complete Your Purchase</h1>
+
+    <section class="checkout-summary">
+      <h2>Your Order</h2>
+      <table class="checkout-table">
+        <thead>
+          <tr><th>Item</th><th>Qty</th><th>Price</th></tr>
+        </thead>
+        <tbody id="checkout-cart-body">
+          <!-- Populated by JS -->
+        </tbody>
+      </table>
+      <div class="checkout-total">Total: $<span id="checkout-total">0</span></div>
+    </section>
+
+    <form id="checkout-form" class="checkout-form">
+      <h2>Personal Information</h2>
+      <label>Full Name
+        <input type="text" id="checkout-name">
+        <span class="checkout-error" id="error-name"></span>
+      </label>
+      <label>Email
+        <input type="email" id="checkout-email">
+        <span class="checkout-error" id="error-email"></span>
+      </label>
+      <label>Phone
+        <input type="text" id="checkout-phone">
+        <span class="checkout-error" id="error-phone"></span>
+      </label>
+
+      <h2>Delivery Details</h2>
+      <label>Address
+        <input type="text" id="checkout-address">
+        <span class="checkout-error" id="error-address"></span>
+      </label>
+      <label>City
+        <input type="text" id="checkout-city">
+        <span class="checkout-error" id="error-city"></span>
+      </label>
+      <label>Postal Code
+        <input type="text" id="checkout-postal">
+        <span class="checkout-error" id="error-postal"></span>
+      </label>
+
+      <h2>Payment</h2>
+      <label>Cardholder Name
+        <input type="text" id="checkout-cardname">
+        <span class="checkout-error" id="error-cardname"></span>
+      </label>
+      <label>Card Number
+        <input type="text" id="checkout-cardnumber">
+        <span class="checkout-error" id="error-cardnumber"></span>
+      </label>
+      <label>Expiry Date
+        <input type="text" id="checkout-expiry" placeholder="MM/YY">
+        <span class="checkout-error" id="error-expiry"></span>
+      </label>
+      <label>CVV
+        <input type="text" id="checkout-cvv">
+        <span class="checkout-error" id="error-cvv"></span>
+      </label>
+
+      <button type="submit" class="checkout-submit">Pay</button>
+    </form>
+
+    <div class="checkout-thankyou cf-hidden" id="thankyou-message"></div>
+  </main>
+  <script src="./scripits/pay.js"></script>
+  <div class="footer-section">
+    <h4>Contact Us</h4>
+    <ul>
+        <li>Email: <a href="mailto:phonexhub@gmail.com">phonexhub@gmail.com</a></li>
+        <li>Hotlines:</li>
+        <li>091 2234267</li>
+        <li>011 234 2342</li>
+        <li>031 829 929 92</li>
+    </ul>
+</div>
+<div class="footer-section">
+    <h4>Follow Us</h4>
+    <ul class="social-links">
+        <li><a href="https://www.facebook.com/phoenixhub" target="_blank">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+    </ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; 2025 Phoenix Hub. All rights reserved.</p>
+</div>
+</footer>
+</body>
+</html>

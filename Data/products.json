@@ -1,0 +1,85 @@
+[
+    {
+      "category": "Processors",
+      "items": [
+        {"name": "Intel i9", "price": 400, "image": "images\\oders\\i99.webp"},
+        {"name": "AMD Ryzen 9", "price": 350, "image": "images\\oders\\r9-removebg-preview.webp"},
+        {"name": "Intel i7", "price": 300, "image": "images\\oders\\3204-removebg-preview.webp"},
+        {"name": "AMD Ryzen 7", "price": 280, "image": "images\\oders\\r7-removebg-preview.webp"},
+        {"name": "Intel i5", "price": 220, "image": "images\\oders\\i5-removebg-preview.webp"},
+        {"name": "AMD Ryzen 5", "price": 200, "image": "images\\oders\\ry5-removebg-preview.webp"}
+      ]
+    },
+    {
+      "category": "Graphic Cards",
+      "items": [
+        {"name": "NVIDIA RTX 3080", "price": 800, "image": "images\\oders\\gpc\\NVIDIA_RTX_3080-removebg-preview.webp"},
+        {"name": "AMD RX 6800", "price": 650, "image": "images\\oders\\gpc\\AMD_RX_6800-removebg-preview.webp"},
+        {"name": "NVIDIA RTX 4070", "price": 600, "image": "images\\oders\\gpc\\NVIDIA_RTX_4070-removebg-preview.webp"},
+        {"name": "AMD RX 7900 XT", "price": 900, "image": "images\\oders\\gpc\\AMD_RX_7900_XT-removebg-preview.webp"},
+        {"name": "NVIDIA GTX 1660 Super", "price": 220, "image": "images\\oders\\gpc\\NVIDIA_GTX_1660_Super-removebg-preview.webp"},
+        {"name": "Intel Arc A770", "price": 400, "image": "images\\oders\\gpc\\Intel_Arc_A770-removebg-preview.webp"}
+      ]
+    },
+    {
+      "category": "Motherboards",
+      "items": [
+        {
+          "name": "ASUS ROG",
+          "price": 300,
+          "image": "images\\oders\\mother B\\ASUS_ROG-removebg-preview.webp"
+        },
+        {
+          "name": "MSI B550",
+          "price": 180,
+          "image": "images\\oders\\mother B\\MSI_B550L-removebg-preview.webp"
+        },
+        {
+          "name": "Gigabyte Z690 AORUS",
+          "price": 250,
+          "image": "images\\oders\\mother B\\Gigabyte_Z690_AORUS-removebg-preview.webp"
+        },
+        {
+          "name": "ASRock B450M",
+          "price": 120,
+          "image": "images\\oders\\mother B\\ASRock_B450M-removebg-preview.webp"
+        },
+        {
+          "name": "ASUS TUF Gaming X570",
+          "price": 220,
+          "image": "images\\oders\\mother B\\ASUS_TUF_Gaming_X570-removebg-preview.webp"
+        },
+        {
+          "name": "MSI Z790 Tomahawk",
+          "price": 250,
+          "image": "images\\oders\\mother B\\MSI_Z790_Tomahawk-removebg-preview (1) (1).webp"
+        }
+      ]
+    },
+
+    {
+      "category": "Memory (RAM)",
+      "items": [
+        { "name": "Corsair Vengeance 16GB", "price": 80, "image": "images\\oders\\RAM\\Corsair_Vengeance_16GB-removebg-preview.webp" },
+        { "name": "G.Skill Ripjaws 32GB", "price": 140, "image": "images\\oders\\RAM\\G.Skill_Ripjaws_32GB-removebg-preview.webp" },
+        { "name": "Kingston Fury 16GB", "price": 75, "image": "images\\oders\\RAM\\Kingston_Fury_16GB-removebg-preview.webp" },
+        { "name": "Crucial Ballistix 32GB", "price": 135, "image": "images\\oders\\RAM\\Crucial_Ballistix_32GB-removebg-preview.webp" },
+        { "name": "TeamGroup T-Force 16GB", "price": 70, "image": "images\\oders\\RAM\\TeamGroup_T-Force_16GB-removebg-preview.webp" },
+        { "name": "Patriot Viper Steel 32GB", "price": 130, "image": "images\\oders\\RAM\\Patriot_Viper_Steel_32GB_-removebg-preview.webp" }
+      ]
+    },
+    {
+      "category": "Storage",
+      "items": [
+        { "name": "Samsung 970 EVO 1TB SSD", "price": 110, "image": "images\\oders\\strg\\samsung_970_evo_1tb_ssd.webp" },
+        { "name": "WD Blue 2TB HDD", "price": 60, "image": "images\\oders\\strg\\wd_blue_2tb_hdd.webp" },
+        { "name": "Crucial MX500 1TB SSD", "price": 95, "image": "images\\oders\\strg\\crucial_mx500_1tb_ssd.webp" },
+        { "name": "Seagate Barracuda 4TB HDD", "price": 85, "image": "images\\oders\\strg\\seagate_barracuda_4tb_hdd.webp" },
+        { "name": "Kingston A2000 1TB NVMe", "price": 100, "image": "images\\oders\\strg\\kingston_a2000_1tb_nvme.webp" },
+        { "name": "WD Black SN850 2TB NVMe", "price": 180, "image": "images\\oders\\strg\\wd_black_sn850_2tb_nvme.webp" }
+      ]
+    }
+    
+    
+    
+  ]

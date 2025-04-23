@@ -1,201 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Order Computer Parts</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/p_page.css">
+  <link rel="stylesheet" href="./styles/home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Kaushan+Script&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Silkscreen:wght@400;700&family=VT323&display=swap"
+    rel="stylesheet">
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
-  <h1>Order Computer Parts</h1>
-  <form id="orderForm">
-    <section class="category" id="processors">
-        <h2>Processors</h2>
-        <div class="product">
-          <img src="images/intel-i9.png" alt="Intel i9">
-          <label for="processor1">Intel i9</label>
-          <input type="number" id="processor1" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/amd-ryzen9.png" alt="AMD Ryzen 9">
-          <label for="processor2">AMD Ryzen 9</label>
-          <input type="number" id="processor2" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/intel-i7.png" alt="Intel i7">
-          <label for="processor3">Intel i7</label>
-          <input type="number" id="processor3" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/amd-ryzen7.png" alt="AMD Ryzen 7">
-          <label for="processor4">AMD Ryzen 7</label>
-          <input type="number" id="processor4" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/intel-i5.png" alt="Intel i5">
-          <label for="processor5">Intel i5</label>
-          <input type="number" id="processor5" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/amd-ryzen5.png" alt="AMD Ryzen 5">
-          <label for="processor6">AMD Ryzen 5</label>
-          <input type="number" id="processor6" min="0" value="0">
-        </div>
-      </section>
-      
-      <section class="category" id="graphicCards">
-        <h2>Graphic Cards</h2>
-        <div class="product">
-          <img src="images/nvidia-rtx-3080.png" alt="NVIDIA RTX 3080">
-          <label for="gpu1">NVIDIA RTX 3080</label>
-          <input type="number" id="gpu1" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/amd-rx-6800.png" alt="AMD RX 6800">
-          <label for="gpu2">AMD RX 6800</label>
-          <input type="number" id="gpu2" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/nvidia-rtx-4070.png" alt="NVIDIA RTX 4070">
-          <label for="gpu3">NVIDIA RTX 4070</label>
-          <input type="number" id="gpu3" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/amd-rx-7900.png" alt="AMD RX 7900 XT">
-          <label for="gpu4">AMD RX 7900 XT</label>
-          <input type="number" id="gpu4" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/nvidia-gtx-1660.png" alt="NVIDIA GTX 1660 Super">
-          <label for="gpu5">NVIDIA GTX 1660 Super</label>
-          <input type="number" id="gpu5" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/intel-arc-a770.png" alt="Intel Arc A770">
-          <label for="gpu6">Intel Arc A770</label>
-          <input type="number" id="gpu6" min="0" value="0">
-        </div>
-      </section>
-      
-      <section class="category" id="motherboards">
-        <h2>Motherboards</h2>
-        <div class="product">
-          <img src="images/asus-rog.png" alt="ASUS ROG Motherboard">
-          <label for="mb1">ASUS ROG</label>
-          <input type="number" id="mb1" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/msi-mb.png" alt="MSI Motherboard">
-          <label for="mb2">MSI B550</label>
-          <input type="number" id="mb2" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/gigabyte-z690.png" alt="Gigabyte Z690 AORUS">
-          <label for="mb3">Gigabyte Z690 AORUS</label>
-          <input type="number" id="mb3" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/asrock-b450.png" alt="ASRock B450M">
-          <label for="mb4">ASRock B450M</label>
-          <input type="number" id="mb4" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/asus-tuf.png" alt="ASUS TUF Gaming X570">
-          <label for="mb5">ASUS TUF Gaming X570</label>
-          <input type="number" id="mb5" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/msi-z790.png" alt="MSI Z790 Tomahawk">
-          <label for="mb6">MSI Z790 Tomahawk</label>
-          <input type="number" id="mb6" min="0" value="0">
-        </div>
-      </section>
-      
-      <section class="category" id="ram">
-        <h2>Memory (RAM)</h2>
-        <div class="product">
-          <img src="images/corsair-ram.png" alt="Corsair RAM">
-          <label for="ram1">Corsair 16GB</label>
-          <input type="number" id="ram1" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/gskill-ram.png" alt="G.Skill RAM">
-          <label for="ram2">G.Skill 16GB</label>
-          <input type="number" id="ram2" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/kingston-ram.png" alt="Kingston Fury 32GB">
-          <label for="ram3">Kingston Fury 32GB</label>
-          <input type="number" id="ram3" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/teamgroup-ram.png" alt="TeamGroup T-Force 8GB">
-          <label for="ram4">TeamGroup T-Force 8GB</label>
-          <input type="number" id="ram4" min="0" value="0">
-        </div>
-      </section>
-      
-      <section class="category" id="storage">
-        <h2>Storage Devices</h2>
-        <div class="product">
-          <img src="images/samsung-ssd.png" alt="Samsung SSD">
-          <label for="storage1">Samsung 1TB SSD</label>
-          <input type="number" id="storage1" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/wd-hdd.png" alt="WD HDD">
-          <label for="storage2">WD 2TB HDD</label>
-          <input type="number" id="storage2" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/crucial-nvme.png" alt="Crucial P3 500GB NVMe">
-          <label for="storage3">Crucial P3 500GB NVMe</label>
-          <input type="number" id="storage3" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/seagate-barracuda.png" alt="Seagate 1TB HDD">
-          <label for="storage4">Seagate 1TB HDD</label>
-          <input type="number" id="storage4" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/kingston-ssd.png" alt="Kingston 480GB SSD">
-          <label for="storage5">Kingston 480GB SSD</label>
-          <input type="number" id="storage5" min="0" value="0">
-        </div>
-        <div class="product">
-          <img src="images/sabrent-nvme.png" alt="Sabrent Rocket 2TB NVMe">
-          <label for="storage6">Sabrent Rocket 2TB NVMe</label>
-          <input type="number" id="storage6" min="0" value="0">
-        </div>
-      </section>
-      
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><img src="./images/Orange_Phoenix_Animal_Gaming_Logo-removebg-preview.png"
+            alt="Gaming Retailer Logo" class="logo-image"></a>
+      </div>
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      <label for="menu-toggle" class="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us </a>
+        <a href="games.html">Games</a>
+        <a href="upcoming.html">Upcoming Games</a>
+        <a href="consoles.html">Consoles</a>
+        <a href="peripherals.html">Gaming Peripherals</a>
+        <a href="faq.html">Queries & FAQ</a>
+        <a href="oder.html">Oders</a>
 
-    <div class="buttons">
-      <button type="button" id="addToFavourites">Add to Favourites</button>
-      <button type="button" id="applyFavourites">Apply Favourites</button>
-      <button type="submit" id="buyNow">Buy Now</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="cf-header-wrapper">
+      <div class="cf-header-actions">
+        <button id="cf-viewCartBtn">View Cart</button>
+        <button id="cf-viewFavoritesBtn">View Favorites</button>
+      </div>
     </div>
-  </form>
+    <h1>Oder your Computer Parts from us!</h1>
 
-  <table id="cartTable">
-    <thead>
-      <tr>
-        <th>Item</th>
-        <th>Quantity</th>
-        <th>Price</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Items added via JavaScript -->
-    </tbody>
-    <tfoot>
-      <tr>
-        <td colspan="2">Total</td>
-        <td id="totalPrice">$0.00</td>
-      </tr>
-    </tfoot>
-  </table>
+    <div id="cf-cartSection" class="cf-hidden">
+      <h3>🛒 Cart Items</h3>
+      <button id="cf-addFavoritesBtn">Save as Favorite</button>
+      <button id="cf-applyFavoritesBtn">Apply Favorite</button>
+      <div class="cf-table-wrapper">
+        <table class="cf-table">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Qty</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody id="cf-cartTableBody"></tbody>
+        </table>
+      </div>
+      <div class="cf-total">
+        Total: $<span id="cf-cartTotal">0</span>
+      </div>
+      <button id="cf-buyNowBtn">Buy Now</button>
+    </div>
 
-  <script src="script.js"></script>
+    <div id="cf-favoritesSection" class="cf-hidden">
+      <h3>⭐ Favorite Items</h3>
+      <ul id="cf-favoritesList" class="cf-fav-list"></ul>
+    </div>
+
+    <!--Dynamic Product Sections(connect with JSON file) -->
+    <div id="productSections"></div>
+  </main>
+    <script src="./scripits/products.js"></script>
+    <div class="footer-section">
+      <h4>Contact Us</h4>
+      <ul>
+          <li>Email: <a href="mailto:phonexhub@gmail.com">phonexhub@gmail.com</a></li>
+          <li>Hotlines:</li>
+          <li>091 2234267</li>
+          <li>011 234 2342</li>
+          <li>031 829 929 92</li>
+      </ul>
+  </div>
+  <div class="footer-section">
+      <h4>Follow Us</h4>
+      <ul class="social-links">
+          <li><a href="https://www.facebook.com/phoenixhub" target="_blank">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+      </ul>
+  </div>
+</div>
+<div class="footer-bottom">
+  <p>&copy; 2025 Phoenix Hub. All rights reserved.</p>
+</div>
+</footer>
 </body>
+
 </html>
