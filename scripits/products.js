@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const applyFavoritesBtn = document.getElementById("cf-applyFavoritesBtn");
   
   // Load and Render Products from JSON
-  fetch("../data/products.json")
+  fetch("/data/products.json")
     .then(res => res.json())
     .then(data => {
       data.forEach(category => renderCategory(category));
