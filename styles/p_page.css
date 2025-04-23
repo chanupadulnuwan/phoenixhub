@@ -27,6 +27,7 @@ h2 {
   margin: 20px 0;
   color: #dc8821d3;
   margin-left: 4dvb;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .category {
@@ -139,23 +140,27 @@ h2 {
 }
 #cf-addFavoritesBtn{
   background-color:  #b99606;
-  color: rgb(230, 227, 222);
+  color: rgb(155, 57, 8);
   border: none;
   border-radius: 6px;
   padding: 0.5rem 1rem;
-  font-size: .8rem;
+  font-size: .9rem;
   cursor: pointer;
   transition: background 0.3s ease;;
+  font-family: 'cinzel';
+  font-weight: bolder;
 }
 #cf-applyFavoritesBtn{
   background-color:  #b99606;
-  color: rgb(230, 227, 222);
+  color: rgb(155, 57, 8);
   border: none;
   border-radius: 6px;
   padding: 0.5rem 1rem;
-  font-size: .8rem;
+  font-size: .9rem;
   cursor: pointer;
   transition: background 0.3s ease;;
+  font-family: 'cinzel';
+  font-weight: bolder;
 
 }
 
@@ -167,7 +172,7 @@ h2 {
   background: #ffffff42;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  color: #c3c0bd;
+  color: #b3b2ae;
   
 }
 
@@ -201,12 +206,14 @@ h2 {
 #cf-addFavoritesToCartBtn {
   margin-top: 1rem;
   background-color: #c85a07;
-  color: rgb(199, 190, 171);
+  color: rgba(250, 205, 7, 0.923);
   border: none;
   border-radius: 6px;
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
   cursor: pointer;
+  font-weight: 900;
+  font-family: "cinzel";
 }
 
 #cf-buyNowBtn:hover,
@@ -222,8 +229,8 @@ h2 {
 
 .cf-fav-list li {
   padding: 0.5rem;
-  background: #f9f9f9;
-  border: 1px solid #ddd;
+  background: #f9f9f945;
+  border: 1px solid #f1a008;
   margin-bottom: 0.5rem;
   font-size: 0.95rem;
   color: #000;
@@ -257,10 +264,10 @@ h2 {
     font-size: 1rem;
   }
   h1{
-    font-size: 5cap;
+    font-size: 4.2cap;
   }
   h2{
-    font-size: 4ch;
+    font-size: 3.9ch;
     margin: 20px 0;
     margin-left: 24dvb;
   }
@@ -276,7 +283,8 @@ h2 {
   padding: 1rem;
   color: #ccc5c5;
   background-color: #1f1f1fa6;
-  margin-top: 5dvb;
+  margin-top: 3dvb;
+  margin-bottom: 2dvb;
   
 }
 
@@ -338,13 +346,14 @@ h2 {
 .checkout-submit {
   width: 100%;
   background-color: #a38304;
-  color: white;
+  color: rgb(16, 7, 1);
   padding: 0.8rem;
   border: none;
   border-radius: 6px;
   margin-top: 1.5rem;
   font-size: 1rem;
   cursor: pointer;
+  font-weight: 900;
 }
 
 .checkout-submit:hover {
@@ -398,5 +407,6 @@ h2 {
   text-align: center;
   padding: 10px 0;
   font-size: 0.9rem;
+  margin-top: 1dvb;
 }
 

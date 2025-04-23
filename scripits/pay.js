@@ -14,7 +14,7 @@ function renderCheckoutCart() {
     row.innerHTML = `
       <td>${item.name}</td>
       <td>${item.qty}</td>
-      <td>$${(item.qty * item.price).toFixed(2)}</td>
+      <td>LKR ${(item.qty * item.price).toFixed(2)}</td>
     `;
     cartBody.appendChild(row);
     total += item.qty * item.price;
