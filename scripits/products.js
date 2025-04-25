@@ -1,5 +1,4 @@
 // Ensure DOM is fully loaded before running script
-
 document.addEventListener("DOMContentLoaded", () => {
 
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -19,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const applyFavoritesBtn = document.getElementById("cf-applyFavoritesBtn");
   
   // Load and Render Products from JSON
-  fetch("Data/products.json")
+  fetch("./Data/products.json")
     .then(res => res.json())
     .then(data => {
       data.forEach(category => renderCategory(category));
@@ -99,11 +98,11 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("cart", JSON.stringify(cart)); // Save cart on every change
   }
   
-  // Remove Item from Cart
-  function removeFromCart(index) {
+  // Remove Item from Cart (Expose Globally)
+  window.removeFromCart = function(index) {
     cart.splice(index, 1);
     renderCart();
-  }
+  };
   
   // Restore Quantity Inputs and Cart Icon State from Stored Cart
   function restoreQuantitiesFromCart() {
@@ -133,6 +132,10 @@ document.addEventListener("DOMContentLoaded", () => {
   
   // Save Current Cart to Favorites
   addFavoritesBtn.addEventListener("click", () => {
+    if (cart.length === 0) {
+      alert("🛑 Cannot add to favorites. Your cart is empty.");
+      return;
+    }
     localStorage.setItem("favorites", JSON.stringify(cart));
     alert("Current order saved as favorite!");
   });
@@ -176,6 +179,5 @@ document.addEventListener("DOMContentLoaded", () => {
       window.location.href = "pay.html";
     });
   }
-  
-  }); 
-  
+
+}); 
