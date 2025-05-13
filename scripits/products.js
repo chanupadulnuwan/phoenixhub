@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   // Load and Render Products from JSON
   fetch("./Data/products.json")
+  fetch("./Data/products.json")
     .then(res => res.json())
     .then(data => {
       data.forEach(category => renderCategory(category));
